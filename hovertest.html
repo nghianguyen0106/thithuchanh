@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="">
+	<link rel="stylesheet" type="text/css" href="css/style2.css">
+
+<body>
+	<div class="master">
+		<div class="hover" > Home </div><br/>
+		<div class="hover"> Product</div><br/>
+
+		<div class="hover"> Contact </div><br/>
+		<div class="hover"> News </div><br/>
+	</div>
+	<br/>
+	<div id="mom" class="mom">
+		
+	</div>
+
+	<script>
+		var hover = document.getElementsByClassName('hover');
+		var mom = document.getElementById("mom");
+		var i =0;
+		
+
+		hover[0].onmouseover = function()
+		{
+			doimau();
+		}
+		hover[0].onmouseout = function()
+		{
+			doimaulai();
+		}
+
+		function doimau(){
+			mom.style.backgroundColor="green";
+		}
+		function doimaulai(){
+		
+			mom.style.backgroundColor="blue";
+		}
+
+	</script>
+</body>
+</html>

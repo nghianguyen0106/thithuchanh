@@ -1,0 +1,183 @@
+body {
+    position: relative;
+    background-color: #171830;
+  /*  -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;*/
+}
+
+h2 {
+    font-family: Cursive;
+}
+
+h3 {
+    font-family: Monospace;
+}
+
+h2:hover {
+
+    transition: 0.25s ease;
+    color: #16F025;
+    box-shadow: 1px solid red;
+}
+
+code {
+    color: white;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    font-size: 20px;
+}
+
+code:hover {
+    font-weight: initial;
+    transition: 0.5s;
+    color: green;
+    text-shadow: 2px 2px 15px white;
+}
+
+.main {
+    position: relative;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 100px 0 100px 0;
+}
+
+.main:hover {
+    box-shadow: 5px 5px 50px black;
+}
+
+
+/*header*/
+.header {
+    margin-top: 30px;
+    background-color: #080D1B;
+    width: 100%;
+    height: 50px;
+}
+
+.icon {
+    float: left;
+}
+
+.main_menu {
+    position: relative;
+    float: right;
+}
+
+.main_menu ul li {
+    padding: 5px;
+    margin-top: 0;
+    margin-left: 50px;
+    float: left;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+.main_menu ul {
+    position: static;
+    margin-right: 100px;
+    list-style-type: none;
+}
+
+.main_menu ul a {
+    color: white;
+    text-decoration: none;
+}
+
+.main_menu ul a:hover {
+    color: #F41818;
+    transition: 0.5s;
+    border-top: 2px solid red;
+    border-bottom: 2px solid red;
+}
+
+/*End header*/
+
+
+/*slide*/
+.slide {
+    padding-top: 20px;
+
+    width: 100%;
+    height: 300px;
+    background-color: #1A2039;
+    color: white;
+}
+
+.slide .avatar img {
+    box-shadow: 1px 5px 50px black;
+    margin-left: 5%;
+    float: left;
+    width: 250px;
+    border-radius: 80%;
+}
+
+.slide .avatar .content {
+    width: 20%;
+    background: transparent;
+    margin-left: 50px;
+    float: left;
+}
+
+.slide .avatar .career {
+    position: absolute;
+    margin-left: 100px;
+    float: left;
+    height: 100%;
+    display: inline-block;
+    text-align: justify;
+    box-sizing: border-box;
+    padding-right: 30px;
+}
+
+/*End slide*/
+
+
+/*content*/
+.content {
+    background-color: #1A2039;
+    height: auto;
+    color: white;
+    text-align: center;
+}
+
+.content div {
+    padding-bottom: 5px;
+    padding-top: 2px;
+}
+
+/*End content*/
+
+/*footer*/
+.footer {
+
+    width: 100%;
+    background-color: #121C38;
+    height: 150px;
+    color: white;
+    text-align: center;
+}
+
+.footer ul {
+    margin-left: 200px;
+}
+
+.footer ul li {
+    float: left;
+    list-style-type: none;
+    margin-left: 50px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
+}
+
+/*End footer*/
+
